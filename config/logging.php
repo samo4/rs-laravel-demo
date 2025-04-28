@@ -124,8 +124,7 @@ return [
         ],
 
         'emergency' => [
-            //'path' => storage_path('logs/laravel.log'),
-            'path' => null, // Disables emergency logging
+            'path' => storage_path('/home/LogFiles/laravel.log'),
         ],
     ],
 
